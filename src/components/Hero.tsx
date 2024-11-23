@@ -26,7 +26,8 @@ const Hero: React.FC = () => {
 				</div>
 				<div className=" flex lg:mt-0 lg:col-span-6 lg:flex w-auto h-auto">
 					<img
-						src="/images/photo-nettoyage-exterieur.jpg"
+						// src="/images/photo-nettoyage-exterieur.jpg"
+						src="/images/photo-sam.jpg"
 						alt="Agent Access Assistance"
 					/>
 				</div>
