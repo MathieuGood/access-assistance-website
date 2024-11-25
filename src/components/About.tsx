@@ -5,7 +5,7 @@ const About: React.FC = () => {
 				Qui sommes-nous ?
 			</h1>
 
-			<div className="grid max-w-5xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
+			<div className="grid max-w-screen-xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
 				<div className="photo-about flex lg:mt-0 lg:col-span-5 px-4 lg:flex w-auto h-auto">
 					<img src="/images/fourgon.svg" alt="Access Assistance" />
 				</div>

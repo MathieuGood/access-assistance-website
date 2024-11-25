@@ -1,0 +1,123 @@
+{
+  "company": {
+    "name": "Access Assistance",
+    "logo": "/images/access-assistance-logo-vector.svg"
+  },
+  "navigation": [
+    {
+      "name": "Notre société",
+      "href": "product"
+    },
+    {
+      "name": "Prestations",
+      "href": "features"
+    }
+  ],
+  "callToAction": {
+    "text": "Contact",
+    "href": "#contact"
+  },
+  "mainHero": {
+    "title": "Une idée ou un besoin ?",
+    "subtitle": "On peut le faire !",
+    "description": "Votre partenaire à taille humaine pour tous vos besoins en nettoyage dans le département du Bas-Rhin.",
+    "img": "/images/photo-sam.jpg",
+    "primaryAction": {
+      "text": "03 88 87 15 15",
+      "href": "tel:+33388871515"
+    },
+    "secondaryAction": {
+      "text": "Demander un devis",
+      "href": "#"
+    }
+  },
+  "product": {
+    "title": "Notre société",
+    "items": [
+      {
+        "title": "À votre service depuis 2001",
+        "description": "Implantés à Wasselonne depuis plus de 20 ans, nous proposons divers services de nettoyage et entretien pour les professionnels. Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+        "img": "/images/photo-batiment.jpg"
+      },
+      {
+        "title": "Produits écologiques",
+        "description": "Nous utilisons des produits écologiques pour le nettoyage de vos locaux : respect de l'environnement et de la santé de vos collaborateurs.",
+        "img": "/images/photo-nettoyage-exterieur.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Nos prestations",
+    "subtitle": "Nous nous occupons de tout.",
+    "description": "Nous construisons avec vous une offre sur-mesure, adaptée à vos besoins et contraintes.",
+    "items": [
+      {
+        "name": "Nettoyage de bureaux",
+        "description": "Sanitaires, sols, vitres, bureaux, salles de réunion, cuisines.",
+        "icon": "/images/mop.svg"
+      },
+      {
+        "name": "Vitrerie",
+        "description": "Nettoyage de toutes surfaces vitrées en intérieur et extérieur.",
+        "icon": "/images/window-cleaning.svg"
+      },
+      {
+        "name": "Nettoyage industriel",
+        "description": "Lavage et désinfection de toutes surfaces d'entrepôts, chambres froides",
+        "icon": "/images/floor-cleaning.png"
+      },
+      {
+        "name": "Entretien de climatisation",
+        "description": "Nettoyage et désinfection périodiques des cassettes et groupes de climatisation.",
+        "icon": "/images/ac.svg"
+      },
+      {
+        "name": "Maintenance locaux",
+        "description": "Petits travaux de maintenance et réparation de vos locaux : changement d'ampoules, réglage de portes, remplacement de poignées de portes, petite plomberie.",
+        "icon": "/images/hammer-nail.svg"
+      },
+      {
+        "name": "Nettoyage de fin de chantier",
+        "description": "Fin de chantier",
+        "icon": "/images/ac.svg"
+      },
+
+      {
+        "name": "Nettoyage de moquettes",
+        "description": "Lessivage, nettoyage, aspi-brossage de surfaces moquettes.",
+        "icon": "/images/ac.svg"
+      }
+    ]
+  },
+
+  "about": {
+    "sections": [
+      {
+        "name": "Mentions légales",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/issaafalkattan",
+      "twitter": "https://twitter.com/issaafkattan",
+      "linkedin": "https://www.linkedin.com/company/access-assistance/"
+    }
+  },
+  "legal": "legal info"
+}

@@ -41,7 +41,7 @@ const Contact = () => {
 
 	return (
 		<div className={`py-12`} id="contact">
-			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-md">
 					<h2 className="text-2xl font-bold mb-4">Contact</h2>
 					{formSubmitted ? (

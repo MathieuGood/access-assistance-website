@@ -1,25 +1,49 @@
-const Services: React.FC = () => {
+import React from "react"
+import config from "../data/index.json"
+
+const Features: React.FC = () => {
+	const { features } = config
+	const { title, subtitle, description, items: featuresList } = features
 	return (
-		<div className="services py-4">
-			<h1 className="text-4xl font-extrabold text-center text-green-light">Prestations</h1>
-
-			<div className="grid max-w-5xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-2">
-				<div>
-					<div className="service-icon">ICON</div>
-					<div className="service-desc">DESCRIPTION</div>
+		<div className="grid max-w-screen-xl px-4 py-2 mx-auto" id="features">
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div className="lg:text-center">
+					<h1 className="text-4xl font-extrabold text-center text-green-light">
+						{title}
+					</h1>
+					<p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+						{subtitle}
+					</p>
+					<p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">{description}</p>
 				</div>
-			</div>
 
-			<div className="grid max-w-5xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
-				<div className="service-icon flex lg:mt-0 lg:col-span-5 px-4 lg:flex w-auto h-10">
-					<img src="/images/cleaner-mop.svg" alt="Access Assistance" />
-				</div>
-				<div className="service-desc mr-auto place-self-center lg:col-span-7 px-4">
-					Bla bla this is just random text to fill in
+				<div className="mt-10">
+					<dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+						{featuresList.map(feature => (
+							<div key={feature.name} className="relative ">
+								<dt>
+									<div
+										className={`absolute flex items-center justify-center h-auto w-14 bg-background text-tertiary`}>
+										<img
+											className={`inline-block h-18 w-18 mt-2`}
+											src={feature.icon}
+											alt={feature.name}
+										/>
+									</div>
+									<p className="ml-20 text-lg leading-6 font-medium text-gray-900">
+										{feature.name}
+									</p>
+								</dt>
+								<dd className="mt-2 ml-20 text-base text-gray-500">
+									{feature.description}
+								</dd>
+							</div>
+						))}
+					</dl>
 				</div>
 			</div>
 		</div>
 	)
 }
 
-export default Services
+export default Features
