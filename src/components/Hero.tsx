@@ -15,12 +15,12 @@ const Hero: React.FC = () => {
 					</p>
 					<a
 						href="tel:+33388871515"
-						className="bg-green-light inline-flex items-center justify-center px-7 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">
+						className="bg-green-light inline-flex items-center justify-center px-4 sm:px-7 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">
 						03 88 87 15 15
 					</a>
 					<a
 						href="#"
-						className="inline-flex items-center justify-center px-7 py-3 text-base font-medium text-center text-green-dark border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-green-dark">
+						className="inline-flex items-center justify-center px-4 sm:px-7 py-3 text-base font-medium text-center text-green-dark border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-green-dark">
 						Demander un devis
 					</a>
 				</div>

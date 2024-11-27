@@ -50,7 +50,7 @@
 		]
 	},
 	"services": {
-		"title": "Nos prestations",
+		"title": "Prestations",
 		"subtitle": "Nous nous occupons de tout.",
 		"description": "Nous construisons avec vous une offre sur-mesure, adaptée à vos besoins et contraintes.",
 		"items": [
@@ -82,13 +82,13 @@
 			{
 				"name": "Nettoyage de fin de chantier",
 				"description": "Fin de chantier",
-				"icon": "/images/ac.svg"
+				"icon": "/images/post-construction-cleaning.svg"
 			},
 
 			{
 				"name": "Nettoyage de moquettes",
 				"description": "Lessivage, nettoyage, aspi-brossage de surfaces moquettes.",
-				"icon": "/images/ac.svg"
+				"icon": "/images/carpet.svg"
 			}
 		]
 	},
