@@ -1,6 +1,6 @@
 const Header: React.FC = () => {
 	return (
-		<div className="grid bg-white max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-10">
+		<div className="grid bg-white max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:px-16">
 			<nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
 				<img
 					src="/images/logo-access-assistance.png"

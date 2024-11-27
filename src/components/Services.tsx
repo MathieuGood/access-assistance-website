@@ -5,7 +5,7 @@ const Services: React.FC = () => {
 	const { services } = data
 	const { title, subtitle, description, items } = services
 	return (
-		<div className="services grid max-w-screen-xl px-4 py-2 mx-auto">
+		<div className="services grid max-w-screen-xl px-4 py-2 mx-auto lg:px-16">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="lg:text-center">
 					<h1 className="text-4xl font-extrabold text-center text-green-light">
