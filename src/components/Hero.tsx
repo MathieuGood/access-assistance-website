@@ -1,12 +1,15 @@
+import data from "../data/contentData.json"
+
 const Hero: React.FC = () => {
+	const { hero } = data
 	return (
 		<section className="bg-white">
-			<div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:px-16 lg:grid-cols-12">
-				<div className="mr-auto place-self-center lg:col-span-6">
-					<h1 className="max-w-2xl mb-4 text-4xl font-extrabold md:text-5xl xl:text-6xl">
-						Une idée ou un besoin ?
+			<div className="grid max-w-screen-xl px-4 py-8 mx-auto md:gap-8 lg:pb-12 lg:px-16 md:grid-cols-12">
+				<div className="hero-left mr- place-self-center md:col-span-7">
+					<h1 className="max-w-2xl mb-4 text-4xl font-extrabold md:text-5xl xl:text-6xl tracking-tighter lg:tracking-normal">
+						Une idée ? Un besoin ?
 					</h1>
-					<h1 className="max-w-2xl mb-4 text-4xl text-green-light font-extrabold md:text-5xl xl:text-6xl">
+					<h1 className="max-w-2xl mb-4 text-4xl text-green-light font-extrabold md:text-5xl xl:text-6xl tracking-tighter lg:tracking-normal">
 						On peut le faire !
 					</h1>
 					<p className="max-w-2xl mb-6 text-gray-light lg:mb-8 md:text-lg lg:text-xl">
@@ -24,11 +27,16 @@ const Hero: React.FC = () => {
 						Demander un devis
 					</a>
 				</div>
-				<div className="flex mt-4 lg:mt-0 lg:col-span-6 lg:flex w-auto h-auto">
+				<div className="hero-right mt-4 lg:mt-0 md:col-span-5 items-center flex">
+					{/* <div className="relative"> */}
+					{/* TODO : Resolve bug on Safari  */}
+					{/* <div className="absolute -inset-1 rounded-lg blur-sm backdrop-blur-sm bg-green-medium translate-x-1 -translate-y-1 "></div> */}
 					<img
-						src="/images/photo-nettoyage-exterieur.jpg"
-						alt="Agent Access Assistance"
+						src={hero.img.src}
+						alt={hero.img.alt}
+						className="object-contain rounded-lg relative z-10 w-auto h-full"
 					/>
+					{/* </div> */}
 				</div>
 			</div>
 		</section>

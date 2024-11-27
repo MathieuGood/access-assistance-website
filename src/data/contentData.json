@@ -18,11 +18,11 @@
 		}
 	],
 
-	"mainHero": {
+	"hero": {
 		"title": "Une idée ou un besoin ?",
 		"subtitle": "On peut le faire !",
 		"description": "Votre partenaire à taille humaine pour tous vos besoins en nettoyage dans le département du Bas-Rhin.",
-		"img": "/images/photo-sam.jpg",
+		"img": { "src": "/images/photo-sam.jpg", "alt": "Agent Access Assistance" },
 		"primaryAction": {
 			"text": "03 88 87 15 15",
 			"href": "tel:+33388871515"
@@ -31,6 +31,12 @@
 			"text": "Demander un devis",
 			"href": "#"
 		}
+	},
+	"local": {
+		"title": "Local avant tout",
+		"subtitle": "Des partenaires locaux engagés",
+		"description": "Le local, c'est une des choses les plus importantes pour Access Assistance. Tous nos fournisseurs sont locaux et fournissent d'excellents produits",
+		"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
 	},
 	"about": {
 		"title": "Notre société",
@@ -52,8 +58,7 @@
 	},
 	"services": {
 		"title": "Prestations",
-		"subtitle": "Nous nous occupons de tout.",
-		"description": "Nous construisons avec vous une offre sur-mesure, adaptée à vos besoins et contraintes.",
+		"subtitle": "Rasseyez-vous, on s'occupe de tout.",
 		"items": [
 			{
 				"name": "Nettoyage de bureaux",

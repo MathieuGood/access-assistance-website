@@ -9,7 +9,8 @@ export default {
 				dark: "#5C6B2F"
 			},
 			gray: {
-				light: "#7D8189"
+				light: "#7D8189",
+				dark: "#333333"
 			},
 			white: "#ffffff",
 			extend: {}
