@@ -1,11 +1,11 @@
 import React from "react"
-import config from "../data/index.json"
+import data from "../data/contentData.json"
 
-const Features: React.FC = () => {
-	const { features } = config
-	const { title, subtitle, description, items: featuresList } = features
+const Services: React.FC = () => {
+	const { services } = data
+	const { title, subtitle, description, items } = services
 	return (
-		<div className="grid max-w-screen-xl px-4 py-2 mx-auto" id="features">
+		<div className="services grid max-w-screen-xl px-4 py-2 mx-auto">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="lg:text-center">
 					<h1 className="text-4xl font-extrabold text-center text-green-light">
@@ -19,23 +19,23 @@ const Features: React.FC = () => {
 
 				<div className="mt-10">
 					<dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-						{featuresList.map(feature => (
-							<div key={feature.name} className="relative ">
+						{items.map(service => (
+							<div key={service.name} className="relative ">
 								<dt>
 									<div
 										className={`absolute flex items-center justify-center h-auto w-14 bg-background text-tertiary`}>
 										<img
 											className={`inline-block h-18 w-18 mt-2`}
-											src={feature.icon}
-											alt={feature.name}
+											src={service.icon}
+											alt={service.name}
 										/>
 									</div>
 									<p className="ml-20 text-lg leading-6 font-medium text-gray-900">
-										{feature.name}
+										{service.name}
 									</p>
 								</dt>
 								<dd className="mt-2 ml-20 text-base text-gray-500">
-									{feature.description}
+									{service.description}
 								</dd>
 							</div>
 						))}
@@ -46,4 +46,4 @@ const Features: React.FC = () => {
 	)
 }
 
-export default Features
+export default Services
