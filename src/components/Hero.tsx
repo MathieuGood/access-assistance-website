@@ -15,16 +15,16 @@ const Hero: React.FC = () => {
 					</p>
 					<a
 						href="tel:+33388871515"
-						className="bg-green-light inline-flex items-center justify-center px-4 sm:px-7 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">
+						className="bg-green-light inline-flex items-center justify-center px-4 sm:px-7 py-3 mr-3 text-base font-medium text-center text-white rounded-lg focus:ring-4 focus:ring-primary-300 hover:shadow-md ">
 						03 88 87 15 15
 					</a>
 					<a
-						href="#"
-						className="inline-flex items-center justify-center px-4 sm:px-7 py-3 text-base font-medium text-center text-green-dark border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-green-dark">
+						href="contact"
+						className="inline-flex items-center justify-center px-4 sm:px-7 py-3 text-base font-medium text-center text-green-dark border border-gray-300 rounded-lg focus:ring-4 focus:ring-primary-300 hover:shadow-md ">
 						Demander un devis
 					</a>
 				</div>
-				<div className=" flex mt-4 lg:mt-0 lg:col-span-6 lg:flex w-auto h-auto">
+				<div className="flex mt-4 lg:mt-0 lg:col-span-6 lg:flex w-auto h-auto">
 					<img
 						src="/images/photo-nettoyage-exterieur.jpg"
 						alt="Agent Access Assistance"

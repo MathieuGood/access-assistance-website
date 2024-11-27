@@ -6,17 +6,18 @@
 	"navigation": [
 		{
 			"name": "Notre société",
-			"href": "product"
+			"href": "#about"
 		},
 		{
 			"name": "Prestations",
-			"href": "features"
+			"href": "#services"
+		},
+		{
+			"name": "Contact",
+			"href": "#contact"
 		}
 	],
-	"callToAction": {
-		"text": "Contact",
-		"href": "#contact"
-	},
+
 	"mainHero": {
 		"title": "Une idée ou un besoin ?",
 		"subtitle": "On peut le faire !",
@@ -57,38 +58,38 @@
 			{
 				"name": "Nettoyage de bureaux",
 				"description": "Sanitaires, sols, vitres, bureaux, salles de réunion, cuisines.",
-				"icon": "/images/mop.svg"
+				"icon": "/images/services/mop.svg"
 			},
 			{
 				"name": "Vitrerie",
 				"description": "Nettoyage de toutes surfaces vitrées en intérieur et extérieur.",
-				"icon": "/images/window-cleaning.svg"
+				"icon": "/images/services/window-cleaning.svg"
 			},
 			{
 				"name": "Nettoyage industriel",
 				"description": "Lavage et désinfection de toutes surfaces d'entrepôts, chambres froides",
-				"icon": "/images/floor-cleaning.png"
+				"icon": "/images/services/floor-cleaning.png"
 			},
 			{
 				"name": "Entretien de climatisation",
 				"description": "Nettoyage et désinfection périodiques des cassettes et groupes de climatisation.",
-				"icon": "/images/ac.svg"
+				"icon": "/images/services/ac3.svg"
 			},
 			{
 				"name": "Maintenance locaux",
 				"description": "Petits travaux de maintenance et réparation de vos locaux : changement d'ampoules, réglage de portes, remplacement de poignées de portes, petite plomberie.",
-				"icon": "/images/hammer-nail.svg"
+				"icon": "/images/services/hammer-nail.svg"
 			},
 			{
 				"name": "Nettoyage de fin de chantier",
 				"description": "Fin de chantier",
-				"icon": "/images/post-construction-cleaning.svg"
+				"icon": "/images/services/post-construction-cleaning.svg"
 			},
 
 			{
 				"name": "Nettoyage de moquettes",
 				"description": "Lessivage, nettoyage, aspi-brossage de surfaces moquettes.",
-				"icon": "/images/carpet.svg"
+				"icon": "/images/services/carpet.svg"
 			}
 		]
 	},

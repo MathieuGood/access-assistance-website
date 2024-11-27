@@ -5,14 +5,14 @@ const Services: React.FC = () => {
 	const { services } = data
 	const { title, subtitle, description, items } = services
 	return (
-		<div className="services grid max-w-screen-xl px-4 py-4 mx-auto lg:px-16">
+		<div id="services" className="grid max-w-screen-xl px-4 py-4 mx-auto lg:px-16">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6 pt-10">
 				<div className="text-center ">
 					<h1 className="text-4xl font-extrabold text-green-light">{title}</h1>
 					<p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
 						{subtitle}
 					</p>
-					<p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">{description}</p>
+					<p className="mt-4 text-xl text-gray-500">{description}</p>
 				</div>
 
 				<div className="mt-10">
