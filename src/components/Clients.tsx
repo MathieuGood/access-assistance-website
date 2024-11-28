@@ -7,7 +7,7 @@ const Clients: React.FC = () => {
 	return (
 		<section className="bg-white">
 			<div id="clients" className="max-w-screen-xl mx-auto grid py-4 px-4 lg:px-16">
-				<h1 className="text-4xl font-extrabold text-center text-black pb-6 pt-10 text-gray-dark">
+				<h1 className="text-4xl font-extrabold text-center pb-6 pt-10 text-gray-dark">
 					{clients.title}
 				</h1>
 
