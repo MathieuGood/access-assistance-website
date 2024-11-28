@@ -41,7 +41,7 @@ const Contact = () => {
 
 	return (
 		<Section sectionData={{ title: "Contact" }} bgColor="bg-green-light">
-			<div className="p-10">
+			<div className="py-4 px-56">
 				{formSubmitted ? (
 					<p>
 						Votre message a bien été envoyé. Nous vous répondrons dans les meilleurs

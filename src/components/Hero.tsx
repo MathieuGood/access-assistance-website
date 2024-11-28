@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
 					</p>
 					<a
 						href="tel:+33388871515"
-						className="bg-green-medium inline-flex items-center justify-center px-4 sm:px-7 py-3 mr-3 text-base font-medium text-center text-white hover:text-green-dark rounded-lg focus:ring-4 focus:ring-primary-300 hover:shadow-md ">
+						className="bg-green-medium inline-flex items-center justify-center px-4 sm:px-7 py-3 mr-3 text-base font-medium text-center text-green-dark rounded-lg focus:ring-4 focus:ring-primary-300 hover:shadow-md ">
 						03 88 87 15 15
 					</a>
 					<a
