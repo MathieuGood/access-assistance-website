@@ -34,9 +34,14 @@
 	},
 	"local": {
 		"title": "Local avant tout",
-		"subtitle": "Des partenaires locaux engagés",
-		"description": "Le local, c'est une des choses les plus importantes pour Access Assistance. Tous nos fournisseurs sont locaux et fournissent d'excellents produits",
-		"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
+		"subtitle": "",
+		"items": [
+			{
+				"title": "Des partenaires locaux engagés",
+				"description": "Le local, c'est une des choses les plus importantes pour Access Assistance. Tous nos fournisseurs sont locaux et fournissent d'excellents produits",
+				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
+			}
+		]
 	},
 	"about": {
 		"title": "Notre société",
@@ -58,7 +63,7 @@
 	},
 	"services": {
 		"title": "Prestations",
-		"subtitle": "Rasseyez-vous, on s'occupe de tout.",
+		"subtitle": "Restez assis, on s'occupe de tout.",
 		"items": [
 			{
 				"name": "Nettoyage de bureaux",
@@ -100,7 +105,7 @@
 	},
 
 	"clients": {
-		"title": "Références",
+		"title": "Ils nous font confiance",
 		"items": [
 			{
 				"name": "Hansgrohe",
@@ -157,10 +162,37 @@
 			}
 		],
 		"socialMedia": {
-			"github": "https://github.com/issaafalkattan",
-			"twitter": "https://twitter.com/issaafkattan",
 			"linkedin": "https://www.linkedin.com/company/access-assistance/"
 		}
 	},
-	"legal": "legal info"
+	"legal": {
+		"title": "Mentions légales",
+		"paragraphs": [
+			{
+				"title": "Société éditrice",
+				"content": [
+					"Access Assistance, SAS (Société par Actions Simplifiée) au capital social de 8 000,00 €",
+					"Siège social : 5 rue Frédéric Bartholdi, 67130 Wasselonne, France",
+					"Téléphone : 03 88 87 15 15",
+					"Adresse e-mail : contact@access-assistance.fr",
+					"SIREN : 438 463 911",
+					"SIRET (siège) : 438 463 911 00034",
+					"Numéro de TVA intracommunautaire : FR62438463911",
+					"Inscription au RCS : R.C.S Saverne, 438 463 911, depuis le 06/08/2001",
+					"Inscription au RNE : 06/08/2001",
+					"Directeur de la publication : Samuel Schmitt, Directeur"
+				]
+			},
+			{
+				"title": "Hébergement",
+				"content": ["OVH SAS, 2 rue Kellermann, 59100 Roubaix - France"]
+			},
+			{
+				"title": "Propriété intellectuelle",
+				"content": [
+					"L'ensemble des contenus présents sur le site est la propriété exclusive de Access Assistance, à l'exception des logos présents dans la section 'Ils nous font confiance'. Toute reproduction, distribution, modification, adaptation, retransmission ou publication de ces éléments est strictement interdite sans l'accord préalable de Access Assistance."
+				]
+			}
+		]
+	}
 }

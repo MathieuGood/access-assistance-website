@@ -6,6 +6,7 @@ import Services from "../components/Services"
 import Contact from "../components/Contact"
 import Local from "../components/Local"
 import Clients from "../components/Clients"
+import Footer from "../components/Footer"
 
 const Home: React.FC = () => {
 	return (
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
 			<Local />
 			<Clients />
 			<Contact />
+			<Footer />
 		</div>
 	)
 }
