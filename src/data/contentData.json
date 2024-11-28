@@ -99,6 +99,40 @@
 		]
 	},
 
+	"clients": {
+		"title": "Références",
+		"items": [
+			{
+				"name": "Hansgrohe",
+				"img": {
+					"src": "/images/clients/hansgrohe.svg",
+					"alt": "Hansgrohe"
+				}
+			},
+			{
+				"name": "Eurométropole de Strasbourg",
+				"img": {
+					"src": "/images/clients/eurometropole-strasbourg.svg",
+					"alt": "Eurométropole de Strasbourg"
+				}
+			},
+			{
+				"name": "Ophéa",
+				"img": {
+					"src": "/images/clients/ophea.png",
+					"alt": "Ophéa"
+				}
+			},
+			{
+				"name": "Foyer Moderne",
+				"img": {
+					"src": "/images/clients/foyer-moderne.svg",
+					"alt": "Foyer Moderne"
+				}
+			}
+		]
+	},
+
 	"footer": {
 		"sections": [
 			{

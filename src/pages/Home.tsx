@@ -5,6 +5,7 @@ import About from "../components/About"
 import Services from "../components/Services"
 import Contact from "../components/Contact"
 import Local from "../components/Local"
+import Clients from "../components/Clients"
 
 const Home: React.FC = () => {
 	return (
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
 			<About />
 			<Services />
 			<Local />
+			<Clients />
 			<Contact />
 		</div>
 	)

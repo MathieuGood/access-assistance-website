@@ -14,7 +14,7 @@ const Local: React.FC = () => {
 					<div className="local-title text-2xl font-bold mb-2">
 						{local.subtitle}
 					</div>
-					<div className="local-desc ext-base md:text-xl text-gray-light place-self-center">
+					<div className="local-desc text-base md:text-xl text-gray-light place-self-center">
 						{local.description}
 					</div>
 				</div>

@@ -5,8 +5,8 @@ const Services: React.FC = () => {
 	const { services } = data
 	const { title, subtitle, items } = services
 	return (
-		<div id="services" className="grid max-w-screen-xl px-4 py-4 mx-auto lg:px-16">
-			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6 pt-10">
+		<div id="services" className="grid max-w-screen-xl px-4 py-4 mx-auto">
+			<div className="mx-auto px-4 sm:px-6 lg:px-8 pb-6 pt-10">
 				<div className="">
 					<h1 className="text-5xl font-extrabold tracking-wide text-green-light">{title}</h1>
 					<p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl">
