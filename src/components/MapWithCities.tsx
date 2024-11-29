@@ -16,7 +16,6 @@ const cityData = [
 ]
 
 const MapWithCities: React.FC = () => {
-    
 	return (
 		<MapContainer
 			style={{ height: "300px", width: "100%" }}
@@ -25,8 +24,10 @@ const MapWithCities: React.FC = () => {
 			scrollWheelZoom={false}>
 			<TileLayer url="" />
 
-			{/* GeoJSON for Bas-Rhin border */}
-			<GeoJSON data={basRhinBorder} style={{ color: "gray", weight: 2 }} />
+			<GeoJSON
+				data={basRhinBorder as unknown as GeoJSON.FeatureCollection}
+				style={{ color: "gray", weight: 2 }}
+			/>
 
 			{/* Markers for cities */}
 			{cityData.map(city => (

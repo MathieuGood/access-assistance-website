@@ -9,7 +9,7 @@ const About: React.FC = () => {
 			{about.items.map((paragraph, index) => (
 				<div
 					key={index}
-					className="about-paragraph grid py-2 mx-auto md:gap-2 xl:gap-6 md:py-8 md:grid-cols-12">
+					className="about-paragraph grid py-2 md:py-8 mx-auto gap-2 md:gap-5 lg:gap-6 xl:gap-8 md:grid-cols-12">
 					<div
 						className={`mr-auto md:col-span-7 ${
 							index % 2 === 0 ? "order-1 md:order-2" : ""

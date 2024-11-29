@@ -5,7 +5,8 @@ export default {
 		colors: {
 			green: {
 				light: "#FAFCE5",
-				medium: "#D9E75F",
+				// medium: "#D9E75F", // Même couleur que le logo original
+				medium: "#d0e322",
 				dark: "#5C6B2F"
 			},
 			gray: {

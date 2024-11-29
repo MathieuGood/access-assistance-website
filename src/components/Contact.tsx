@@ -41,7 +41,7 @@ const Contact = () => {
 
 	return (
 		<Section sectionData={{ title: "Contact" }} bgColor="bg-green-light">
-			<div className="py-4 px-56">
+			<div className="py-4 md:px-56">
 				{formSubmitted ? (
 					<p>
 						Votre message a bien été envoyé. Nous vous répondrons dans les meilleurs
@@ -100,11 +100,11 @@ const Contact = () => {
 							/>
 						</div>
 
-						<div>
+						<div className="flex justify-center">
 							<button
 								type="submit"
 								disabled={isSubmitting}
-								className={`flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background   hover:text-primary md:py-4 md:text-lg md:px-10 ${
+								className={`bg-green-medium inline-flex items-center justify-center px-4 sm:px-7 py-3 mr-3 text-base font-medium text-center text-green-dark rounded-lg focus:ring-4 focus:ring-primary-300 hover:shadow-md  ${
 									isSubmitting ? "bg-gray-400" : "bg-primary hover:bg-border"
 								}`}>
 								{isSubmitting ? "Envoi en cours..." : "Envoyer"}
