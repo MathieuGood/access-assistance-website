@@ -1,8 +1,8 @@
-import React from "react"
+import React, { useEffect } from "react"
+import { Direction } from "leaflet"
 import { MapContainer, TileLayer, GeoJSON, CircleMarker, Tooltip } from "react-leaflet"
 import "leaflet/dist/leaflet.css"
 import basRhinBorder from "./mapBasRhin.json"
-import { Direction } from "leaflet"
 
 interface City {
 	name: string
@@ -18,8 +18,8 @@ const cities: City[] = [
 		name: "Wasselonne",
 		lat: 48.6237,
 		lng: 7.4282,
-		image: "/images/access-assistance-logo-vector.svg",
-		tooltipDirection: "top"
+		image: "/images/logo-access-assistance.png",
+		tooltipDirection: "left"
 	},
 	{
 		name: "Hoerdt",
@@ -37,7 +37,33 @@ const cities: City[] = [
 	}
 ]
 
+const toolTipPxOffset = 5
+import { PointExpression } from "leaflet"
+
+const getTooltipOffset = (direction: Direction): PointExpression => {
+	switch (direction) {
+		case "top":
+			return [0, -toolTipPxOffset]
+		case "right":
+			return [toolTipPxOffset, 0]
+		case "bottom":
+			return [0, toolTipPxOffset]
+		case "left":
+			return [-toolTipPxOffset, 0]
+		default:
+			return [0, 0]
+	}
+}
+
 const MapWithCities: React.FC = () => {
+	const [, setTooltipsReady] = React.useState(false)
+
+	useEffect(() => {
+		// Delay tooltip rendering to allow the map to stabilize and avoid misplaced tooltips
+		const timeout = setTimeout(() => setTooltipsReady(true), 100)
+		return () => clearTimeout(timeout)
+	}, [])
+
 	return (
 		<MapContainer
 			style={{
@@ -61,7 +87,6 @@ const MapWithCities: React.FC = () => {
 				style={{ color: "#d0e322", weight: 3 }}
 			/>
 
-			{/* Markers for cities */}
 			{cities.map(city => (
 				<CircleMarker
 					key={city.name}
@@ -69,9 +94,28 @@ const MapWithCities: React.FC = () => {
 					radius={3}
 					fillColor="red"
 					color="red"
-					fillOpacity={1}>
-					<Tooltip permanent key={city.name} direction={city.tooltipDirection}>
-						{city.image && <img src={city.image} className="w-36 object-contain" />}
+					fillOpacity={1}
+					className="animate-pulse">
+					<Tooltip
+						permanent
+						key={city.name}
+						direction={city.tooltipDirection}
+						offset={getTooltipOffset(city.tooltipDirection)}
+						className="w-24 text-center">
+						{city.image && (
+							<img
+								src={city.image}
+								style={{
+									maxHeight: "200px",
+									width: "300px",
+									display: "block",
+									margin: "0 auto",
+									objectFit: "contain",
+									// Padding vertical 10px
+									padding: "4px 0"
+								}}
+							/>
+						)}
 						<strong>{city.name}</strong>
 					</Tooltip>{" "}
 				</CircleMarker>
