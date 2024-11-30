@@ -1,6 +1,6 @@
 import React from "react"
 import data from "../data/contentData.json"
-import MapWithCities from "./MapWithCities"
+import MapWithCities from "./map/MapWithCities"
 import Section from "./Section"
 
 const Local: React.FC = () => {
