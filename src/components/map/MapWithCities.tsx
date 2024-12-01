@@ -111,7 +111,6 @@ const MapWithCities: React.FC = () => {
 									display: "block",
 									margin: "0 auto",
 									objectFit: "contain",
-									// Padding vertical 10px
 									padding: "4px 0"
 								}}
 							/>
