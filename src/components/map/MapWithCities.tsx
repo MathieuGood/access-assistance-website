@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { Direction } from "leaflet"
+import { Direction, PointExpression } from "leaflet"
 import { MapContainer, TileLayer, GeoJSON, CircleMarker, Tooltip } from "react-leaflet"
 import "leaflet/dist/leaflet.css"
 import basRhinBorder from "./mapBasRhin.json"
@@ -38,7 +38,6 @@ const cities: City[] = [
 ]
 
 const toolTipPxOffset = 5
-import { PointExpression } from "leaflet"
 
 const getTooltipOffset = (direction: Direction): PointExpression => {
 	switch (direction) {
@@ -67,11 +66,11 @@ const MapWithCities: React.FC = () => {
 	return (
 		<MapContainer
 			style={{
-				height: "300px",
+				height: "280px",
 				width: "100%",
 				backgroundColor: "#FAFCE5"
 			}}
-			center={[48.6237, 7.4282]}
+			center={[48.6, 7.59]}
 			zoom={8}
 			zoomControl={false}
 			scrollWheelZoom={false}
