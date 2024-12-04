@@ -40,7 +40,7 @@ const Contact = () => {
 	}
 
 	return (
-		<Section sectionData={{ title: "Contact" }} bgColor="bg-green-light">
+		<Section sectionData={{ title: "Contact" }} bgColor="">
 			<div className="py-4 md:px-56">
 				{formSubmitted ? (
 					<p>

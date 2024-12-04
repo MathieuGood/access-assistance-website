@@ -17,7 +17,7 @@ const About: React.FC = () => {
 						<div className="about-paragraph-title text-2xl font-bold mb-2">
 							{paragraph.title}
 						</div>
-						<div className="about-paragraph-desc ext-base md:text-xl text-gray-light place-self-center">
+						<div className="about-paragraph-desc text-base md:text-sm text-gray-light place-self-center">
 							{paragraph.description}
 						</div>
 					</div>

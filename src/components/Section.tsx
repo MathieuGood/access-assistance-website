@@ -2,7 +2,7 @@ import React, { ReactNode } from "react"
 
 const Section: React.FC<{
 	sectionData: { title: string; subtitle?: string }
-	bgColor: string
+	bgColor?: string
 	titleColor?: string
 	subtitleColor?: string
 	children: ReactNode

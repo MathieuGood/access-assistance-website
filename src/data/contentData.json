@@ -34,7 +34,7 @@
 	},
 	"local": {
 		"title": "Local avant tout",
-		"subtitle": "",
+		"subtitle": "Des partenaires de proximité",
 		"items": [
 			{
 				"title": "Des partenaires locaux engagés",
@@ -57,6 +57,24 @@
 				"img": {
 					"src": "/images/photo-nettoyage-exterieur.jpg",
 					"alt": "Nettoyage extérieur"
+				}
+			}
+		]
+	},
+	"ecology": {
+		"title": "Eco-responsabilité",
+		"items": [
+			{
+				"name": "EcoLabel",
+				"description": "ECOLABEL",
+				"img": { "src": "/images/certifications/ecolabel.svg", "alt": "Ecolabel" }
+			},
+			{
+				"name": "Ecocert",
+				"description": "ECOCERT",
+				"img": {
+					"src": "/images/certifications/ecocert-ecodetergent.png",
+					"alt": "Ecocert"
 				}
 			}
 		]
@@ -87,7 +105,7 @@
 			},
 			{
 				"name": "Maintenance locaux",
-				"description": "Petits travaux de maintenance et réparation de vos locaux : changement d'ampoules, réglage de portes, remplacement de poignées de portes, petite plomberie.",
+				"description": "Travaux courants de maintenance et réparation de vos locaux : changement d'ampoules, réglage de portes, remplacement de poignées de portes, petite plomberie.",
 				"icon": "/images/services/hammer-nail.svg"
 			},
 			{

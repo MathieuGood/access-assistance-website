@@ -11,18 +11,18 @@ const Services: React.FC = () => {
 					<div key={service.name} className="relative ">
 						<dt>
 							<div
-								className={`absolute flex items-center justify-center h-auto w-14 bg-background text-tertiary`}>
+								className={`absolute flex items-center justify-center h-auto w-14`}>
 								<img
 									className={`inline-block h-18 w-18 mt-2`}
 									src={service.icon}
 									alt={service.name}
 								/>
 							</div>
-							<p className="ml-20 text-lg leading-6 font-medium text-gray-900">
+							<p className="ml-20 text-lg leading-6 font-medium">
 								{service.name}
 							</p>
 						</dt>
-						<dd className="mt-2 ml-20 text-base text-gray-500">
+						<dd className="mt-2 ml-20 text-base text-gray-light">
 							{service.description}
 						</dd>
 					</div>
