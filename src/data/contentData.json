@@ -3,6 +3,7 @@
 		"name": "Access Assistance",
 		"logo": "/images/access-assistance-logo-vector.svg"
 	},
+
 	"navigation": [
 		{
 			"name": "Notre société",
@@ -32,27 +33,23 @@
 			"href": "#"
 		}
 	},
-	"local": {
-		"title": "Local avant tout",
-		"subtitle": "Des partenaires de proximité",
-		"items": [
-			{
-				"title": "Des partenaires locaux engagés",
-				"description": "Le local, c'est une des choses les plus importantes pour Access Assistance. Tous nos fournisseurs sont locaux et fournissent d'excellents produits",
-				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
-			}
-		]
-	},
+
 	"about": {
 		"title": "Notre société",
 		"items": [
 			{
 				"title": "À votre service depuis 2001",
-				"description": "Implantés à Wasselonne depuis plus de 20 ans, nous proposons divers services de nettoyage et entretien pour les professionnels. Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+				"description": "Implanté à Wasselonne depuis plus de 20 ans, Access Assistance est le partenaire des professionnels pour tous types de missions de nettoyage et d'entretien. En tant qu'entreprise familiale, il nous tient particulièrement à coeur d'offrir des services de qualité",
+				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
+			},
+			{
+				"title": "Multi-services pour vous servir",
+				"description": "Implanté à Wasselonne depuis plus de 20 ans, Access Assistance est le partenaire des professionnels pour tous types de missions de nettoyage et d'entretien. En tant qu'entreprise familiale, il nous tient particulièrement à coeur d'offrir des services de qualité",
 				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
 			}
 		]
 	},
+
 	"customOffer": {
 		"title": "Multi-services et ...",
 		"items": [
@@ -66,6 +63,7 @@
 			}
 		]
 	},
+
 	"ecology": {
 		"title": "Eco-responsabilité",
 		"items": [
@@ -84,6 +82,7 @@
 			}
 		]
 	},
+
 	"services": {
 		"title": "Prestations",
 		"subtitle": "Restez assis, on s'occupe de tout.",
@@ -125,6 +124,18 @@
 				"name": "Entretien de climatisation",
 				"description": "Nettoyage et désinfection périodiques des cassettes et groupes de climatisation.",
 				"icon": "/images/services/ac3.svg"
+			}
+		]
+	},
+
+	"local": {
+		"title": "Local avant tout",
+		"subtitle": "Des partenaires de proximité",
+		"items": [
+			{
+				"title": "Des partenaires locaux engagés",
+				"description": "Le local, c'est une des choses les plus importantes pour Access Assistance. Tous nos fournisseurs sont locaux et fournissent d'excellents produits",
+				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
 			}
 		]
 	},
@@ -190,6 +201,7 @@
 			"linkedin": "https://www.linkedin.com/company/access-assistance/"
 		}
 	},
+
 	"legal": {
 		"title": "Mentions légales",
 		"paragraphs": [
@@ -220,6 +232,7 @@
 			}
 		]
 	},
+
 	"mapCities": [
 		{
 			"name": "Strasbourg",
