@@ -1,4 +1,5 @@
 import data from "../data/contentData.json"
+import { scrollToSection } from "../utils/scrollUtils"
 
 const Header: React.FC = () => {
 	const { navigation } = data
@@ -14,9 +15,10 @@ const Header: React.FC = () => {
 					{navigation.map((section, index) => {
 						return (
 							<a
+								onClick={() => scrollToSection(section.name)}
 								key={index}
-								href={section.href}
-								className="font-medium text-gray-light hover:text-green-light">
+								href="#"
+								className="font-medium text-gray-light hover:text-green-dark hover:drop-shadow-xl">
 								{section.name}
 							</a>
 						)

@@ -1,4 +1,5 @@
 import data from "../data/contentData.json"
+import { scrollToSection } from "../utils/scrollUtils"
 
 const Hero: React.FC = () => {
 	const { hero } = data
@@ -22,7 +23,8 @@ const Hero: React.FC = () => {
 						03 88 87 15 15
 					</a>
 					<a
-						href="contact"
+						href="#"
+						onClick={() => scrollToSection("Contact")}
 						className="inline-flex items-center justify-center px-4 sm:px-7 py-3 text-base font-medium text-center text-green-dark border border-gray-300 rounded-lg focus:ring-4 focus:ring-primary-300 hover:shadow-md ">
 						Demander un devis
 					</a>
