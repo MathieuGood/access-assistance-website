@@ -50,13 +50,18 @@
 				"title": "À votre service depuis 2001",
 				"description": "Implantés à Wasselonne depuis plus de 20 ans, nous proposons divers services de nettoyage et entretien pour les professionnels. Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
 				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
-			},
+			}
+		]
+	},
+	"customOffer": {
+		"title": "Multi-services et ...",
+		"items": [
 			{
-				"title": "Produits écologiques",
-				"description": "Nous utilisons des produits écologiques pour le nettoyage de vos locaux : respect de l'environnement et de la santé de vos collaborateurs.",
+				"title": "Une offre sur mesure",
+				"description": "Sur mesure c'est notre philosophie",
 				"img": {
-					"src": "/images/photo-nettoyage-exterieur.jpg",
-					"alt": "Nettoyage extérieur"
+					"src": "/images/photo-batiment.jpg",
+					"alt": "Sur mesure"
 				}
 			}
 		]
@@ -98,16 +103,7 @@
 				"description": "Lavage et désinfection de toutes surfaces d'entrepôts, chambres froides",
 				"icon": "/images/services/floor-cleaning.png"
 			},
-			{
-				"name": "Entretien de climatisation",
-				"description": "Nettoyage et désinfection périodiques des cassettes et groupes de climatisation.",
-				"icon": "/images/services/ac3.svg"
-			},
-			{
-				"name": "Maintenance locaux",
-				"description": "Travaux courants de maintenance et réparation de vos locaux : changement d'ampoules, réglage de portes, remplacement de poignées de portes, petite plomberie.",
-				"icon": "/images/services/hammer-nail.svg"
-			},
+
 			{
 				"name": "Nettoyage de fin de chantier",
 				"description": "Fin de chantier",
@@ -115,9 +111,20 @@
 			},
 
 			{
-				"name": "Nettoyage de moquettes",
+				"name": "Moquettes",
 				"description": "Lessivage, nettoyage, aspi-brossage de surfaces moquettes.",
 				"icon": "/images/services/carpet.svg"
+			},
+
+			{
+				"name": "Maintenance locaux",
+				"description": "Travaux courants de maintenance et réparation de vos locaux : changement d'ampoules, réglage de portes, remplacement de poignées de portes, petite plomberie.",
+				"icon": "/images/services/hammer-nail.svg"
+			},
+			{
+				"name": "Entretien de climatisation",
+				"description": "Nettoyage et désinfection périodiques des cassettes et groupes de climatisation.",
+				"icon": "/images/services/ac3.svg"
 			}
 		]
 	},
@@ -212,5 +219,34 @@
 				]
 			}
 		]
-	}
+	},
+	"mapCities": [
+		{
+			"name": "Strasbourg",
+			"lat": 48.5734,
+			"lng": 7.7521,
+			"tooltipDirection": "right"
+		},
+		{
+			"name": "Wasselonne",
+			"lat": 48.6237,
+			"lng": 7.4282,
+			"image": "/images/logo-access-assistance.png",
+			"tooltipDirection": "left"
+		},
+		{
+			"name": "Hoerdt",
+			"lat": 48.6848,
+			"lng": 7.8034,
+			"image": "/images/partners/laco.png",
+			"tooltipDirection": "top"
+		},
+		{
+			"name": "Fegersheim",
+			"lat": 48.4962,
+			"lng": 7.6902,
+			"image": "/images/partners/orapi.webp",
+			"tooltipDirection": "bottom"
+		}
+	]
 }

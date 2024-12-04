@@ -17,7 +17,7 @@ const Clients: React.FC = () => {
 								<img
 									src={client.img.src}
 									alt={client.img.alt}
-									className="object-contain max-h-24 max-w-56"
+									className="object-contain max-h-24 max-w-56 drop-shadow-lg"
 								/>
 							</div>
 						)
