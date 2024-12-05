@@ -4,7 +4,7 @@ import { scrollToSection } from "../utils/scrollUtils"
 const Hero: React.FC = () => {
 	const { hero } = data
 	return (
-		<section className="bg-white shadow-md mb-2">
+		<section className="bg-white shadow-md pb-2">
 			<div className="grid max-w-screen-xl px-4 py-2 pb-4 md:py-8 mx-auto md:gap-8 lg:pb-12 lg:px-16 md:grid-cols-12">
 				<div className="hero-left place-self-center md:col-span-7">
 					<h1 className="max-w-2xl mb-4 text-4xl font-extrabold md:text-5xl xl:text-6xl tracking-tighter lg:tracking-normal">

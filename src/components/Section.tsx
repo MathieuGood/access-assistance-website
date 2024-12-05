@@ -8,7 +8,7 @@ const Section: React.FC<{
 	children: ReactNode
 }> = ({ sectionData, bgColor, titleColor, subtitleColor, children }) => {
 	return (
-		<section id={sectionData.title} className={`${bgColor} shadow-md mb-2`}>
+		<section id={sectionData.title} className={`${bgColor} shadow-inner  pb-4`}>
 			<div className="max-w-screen-xl mx-auto grid py-8 lg:py-10 px-4 lg:px-16">
 				<div className="pb-10 pt-6 text-center">
 					<h1 className={`text-5xl font-extrabold tracking-wide ${titleColor}`}>

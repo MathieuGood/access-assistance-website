@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
 	}, [isModalOpen])
 
 	return (
-		<footer className="footer bg-green-medium">
+		<footer className="footer bg-green-medium shadow-inner pt-2">
 			<div className="max-w-screen-xl p-4 py-8 mx-auto lg:py-12 md:p-8">
 				<div className="text-center text-sm space-y-2">
 					<p>Access Assistance, 5 rue Frédéric Bartholdi, 67130 Wasselonne</p>
