@@ -14,16 +14,21 @@ const Ecology: React.FC = () => {
 					if (index < numberofClientsToDisplay) {
 						return (
 							<div key={index} className="flex  p-2">
-								<img
-									src={client.img.src}
-									alt={client.img.alt}
-									className="object-contain max-h-24 max-w-56"
-								/>
+								<a href={client.href}>
+									<img
+										src={client.img.src}
+										alt={client.img.alt}
+										className="object-contain max-h-24 max-w-56"
+									/>
+								</a>
 							</div>
 						)
 					}
 					return null
 				})}
+				<div className="mainText text-center text-base md:text-xl text-gray-light place-self-center">
+					{ecology.mainText}
+				</div>
 			</div>
 		</Section>
 	)

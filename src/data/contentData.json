@@ -23,7 +23,7 @@
 		"title": "Une idée ou un besoin ?",
 		"subtitle": "On peut le faire !",
 		"description": "Votre partenaire à taille humaine pour tous vos besoins en nettoyage dans le département du Bas-Rhin.",
-		"img": { "src": "/images/photo-sam.jpg", "alt": "Agent Access Assistance" },
+		"img": { "src": "/images/photos/agent-chariot.jpeg", "alt": "Agent Access Assistance" },
 		"primaryAction": {
 			"text": "03 88 87 15 15",
 			"href": "tel:+33388871515"
@@ -66,16 +66,18 @@
 
 	"ecology": {
 		"title": "Eco-responsabilité",
-		"subtitle" : "Parce que "
+		"mainText": "Car le repect de la planète est aussi important que celui de ses habtitants, nous utilisons majoritairement des produits d'entretien certifiés Ecolabel Européen ou Ecocert Écodétergeant.",
 		"items": [
 			{
 				"name": "EcoLabel",
 				"description": "ECOLABEL",
+				"href": "https://www.ecolabels.fr/",
 				"img": { "src": "/images/certifications/ecolabel.svg", "alt": "Ecolabel" }
 			},
 			{
 				"name": "Ecocert",
 				"description": "ECOCERT",
+				"href": "https://www.ecocert.com/fr-FR/certification/produits-de-nettoyage-ecologiques-ecodetergents",
 				"img": {
 					"src": "/images/certifications/ecocert-ecodetergent.png",
 					"alt": "Ecocert"
