@@ -40,7 +40,7 @@
 			{
 				"title": "À votre service depuis 2001",
 				"description": "Implanté à Wasselonne depuis plus de 20 ans, Access Assistance est le partenaire des professionnels pour tous types de missions de nettoyage et d'entretien. En tant qu'entreprise familiale, il nous tient particulièrement à coeur d'offrir des services de qualité",
-				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
+				"img": { "src": "/images/photos/agent-aspirateur.jpeg", "alt": "Locaux Access Assistance" }
 			},
 			{
 				"title": "Multi-services pour vous servir",
@@ -66,7 +66,7 @@
 
 	"ecology": {
 		"title": "Eco-responsabilité",
-		"mainText": "Car le repect de la planète est aussi important que celui de ses habtitants, nous utilisons majoritairement des produits d'entretien certifiés Ecolabel Européen ou Ecocert Écodétergeant.",
+		"mainText": "Car le repect de la planète est aussi important que celui de ses habitants, nous utilisons majoritairement des produits d'entretien certifiés Ecolabel Européen ou Ecocert Écodétergeant.",
 		"items": [
 			{
 				"name": "EcoLabel",
