@@ -5,7 +5,7 @@ import Section from "./Section"
 const Services: React.FC = () => {
 	const { services } = data
 	return (
-		<Section sectionData={services} bgColor="bg-white" titleColor="text-green-medium">
+		<Section sectionData={services} bgColor="bg-white">
 			<dl className="space-y-10 md:space-y-0  md:grid md:grid-cols-2 md:gap-x-12 md:gap-y-10">
 				{services.items.map(service => (
 					<div key={service.name} className="relative ">

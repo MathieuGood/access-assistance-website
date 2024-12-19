@@ -22,8 +22,8 @@
 	"hero": {
 		"title": "Une idée ou un besoin ?",
 		"subtitle": "On peut le faire !",
-		"description": "Votre partenaire à taille humaine pour tous vos besoins en nettoyage dans le département du Bas-Rhin.",
-		"img": { "src": "/images/photos/agent-chariot.jpeg", "alt": "Agent Access Assistance" },
+		"description": "Votre partenaire à taille humaine pour tous vos besoins en nettoyage et entretien dans le département du Bas-Rhin.",
+		"img": { "src": "/images/photos/agent-chariot-cropped.jpeg", "alt": "Agent Access Assistance" },
 		"primaryAction": {
 			"text": "03 88 87 15 15",
 			"href": "tel:+33388871515"
@@ -40,12 +40,15 @@
 		"items": [
 			{
 				"title": "À votre service depuis 2001",
-				"description": "Implanté à Wasselonne depuis plus de 20 ans, Access Assistance est le partenaire des professionnels pour tous types de missions de nettoyage et d'entretien. En tant qu'entreprise familiale, il nous tient particulièrement à coeur d'offrir des services de qualité",
-				"img": { "src": "/images/photos/agent-aspirateur.jpeg", "alt": "Locaux Access Assistance" }
+				"description": "Implanté à Wasselonne depuis plus de 20 ans, Access Assistance est le partenaire des professionnels pour tous types de missions de nettoyage et d'entretien. En tant qu'entreprise familiale, nous valorisons particulièrement la proximité et la qualité de nos prestations. ",
+				"img": {
+					"src": "/images/photos/agent-aspirateur.jpeg",
+					"alt": "Locaux Access Assistance"
+				}
 			},
 			{
-				"title": "Multi-services pour vous servir",
-				"description": "Implanté à Wasselonne depuis plus de 20 ans, Access Assistance est le partenaire des professionnels pour tous types de missions de nettoyage et d'entretien. En tant qu'entreprise familiale, il nous tient particulièrement à coeur d'offrir des services de qualité",
+				"title": "Un client, une offre",
+				"description": "Car chaque situation est différente, nous construisons pour chacun de nos clients une offre sur mesure, en fonction de ses besoins. ",
 				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
 			}
 		]
@@ -67,6 +70,7 @@
 
 	"ecology": {
 		"title": "Eco-responsabilité",
+		"subtitle": "Protéger ce qui nous entoure",
 		"mainText": "Car le repect de la planète est aussi important que celui de ses habitants, nous utilisons majoritairement des produits d'entretien certifiés Ecolabel Européen ou Ecocert Écodétergeant.",
 		"items": [
 			{
@@ -134,11 +138,11 @@
 
 	"local": {
 		"title": "Local avant tout",
-		"subtitle": "Des partenaires de proximité",
+		"subtitle": "Un pur produit alsacien",
 		"items": [
 			{
-				"title": "Des partenaires locaux engagés",
-				"description": "Le local, c'est une des choses les plus importantes pour Access Assistance. Tous nos fournisseurs sont locaux et fournissent d'excellents produits",
+				"title": "",
+				"description": "Le local est au coeur des valeurs que portent Access Assistance. La proximité est un critère essentiel dans la sélection de nos fournisseurs et partenaires.",
 				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
 			}
 		]
@@ -146,6 +150,7 @@
 
 	"clients": {
 		"title": "Ils nous font confiance",
+		"subtitle": "Nos clients, nos meilleurs ambassadeurs",
 		"items": [
 			{
 				"name": "Hansgrohe",

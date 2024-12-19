@@ -11,12 +11,12 @@ const Section: React.FC<{
 		<section id={sectionData.title} className={`${bgColor} shadow-inner  pb-4`}>
 			<div className="max-w-screen-xl mx-auto grid py-8 lg:py-10 px-4 lg:px-16">
 				<div className="pb-10 pt-6 text-center">
-					<h2 className={`text-5xl font-extrabold tracking-wide ${titleColor}`}>
+					<h2 className={`text-4xl md:text-5xl font-extrabold text-black ${titleColor}`}>
 						{sectionData.title}
 					</h2>
 					{sectionData.subtitle && (
 						<h3
-							className={`mt-2 text-2xl leading-8 font-extrabold tracking-tight sm:text-3xl ${subtitleColor}`}>
+							className={`mt-3 md:mt-6 text-2xl leading-8 font-extrabold tracking-tight md:text-3xl text-green-medium ${subtitleColor}`}>
 							{sectionData.subtitle}
 						</h3>
 					)}

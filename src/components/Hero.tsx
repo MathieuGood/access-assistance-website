@@ -36,7 +36,8 @@ const Hero: React.FC = () => {
 					<img
 						src={hero.img.src}
 						alt={hero.img.alt}
-						className="object-contain rounded-lg relative z-10 w-auto h-full"
+						// className="object-contain rounded-lg relative z-10 w-auto h-full"
+						className="object-cover object-[center_-80px] rounded-lg relative z-10 max-h-52 md:max-h-max w-full"
 					/>
 					{/* </div> */}
 				</div>

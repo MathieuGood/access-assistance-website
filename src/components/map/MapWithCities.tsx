@@ -44,7 +44,7 @@ const MapWithCities: React.FC = () => {
 			style={{
 				height: "280px",
 				width: "100%",
-				backgroundColor: "#FAFCE5"
+				backgroundColor: "#FFFFFF"
 			}}
 			center={[48.6, 7.59]}
 			zoom={8}

@@ -6,7 +6,7 @@ const Ecology: React.FC = () => {
 	const { ecology } = data
 	const numberofClientsToDisplay = 3
 	return (
-		<Section sectionData={ecology} bgColor="bg-green-light">
+		<Section sectionData={ecology} bgColor="bg-gray-100">
 			<div
 				id="client-logos"
 				className={`flex justify-center flex-wrap px-4 py-2 md:py-8 gap-4`}>
@@ -26,7 +26,7 @@ const Ecology: React.FC = () => {
 					}
 					return null
 				})}
-				<div className="mainText text-center text-base md:text-xl text-gray-light place-self-center">
+				<div className="mainText text-center text-base md:text-xl place-self-center">
 					{ecology.mainText}
 				</div>
 			</div>
