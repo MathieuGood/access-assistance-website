@@ -7,7 +7,7 @@ const Local: React.FC = () => {
 	const { local } = data
 	return (
 		<Section sectionData={local}>
-			<div className="grid max-w-screen-xl mx-auto gap-2 md:gap-5 lg:gap-6 xl:gap-8 md:py-8 md:grid-cols-12">
+			<div className="grid max-w-screen-xl mx-auto gap-2 py-2 md:pb-8md:gap-5 lg:gap-6 xl:gap-8 md:grid-cols-12">
 				<div className="mr-auto md:col-span-7 flex justify-center">
 					{local.items[0].title && (
 						<div className="local-title text-2xl font-bold mb-2">
