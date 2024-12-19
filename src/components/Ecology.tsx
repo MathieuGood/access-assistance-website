@@ -9,7 +9,7 @@ const Ecology: React.FC = () => {
 		<Section sectionData={ecology} bgColor="bg-gray-100">
 			<div
 				id="client-logos"
-				className={`flex justify-center flex-wrap px-4 py-2 md:py-8 gap-4`}>
+				className={`flex justify-center flex-wrap px-2 py-2 md:pb-8 gap-4`}>
 				{ecology.items.map((client, index) => {
 					if (index < numberofClientsToDisplay) {
 						return (
