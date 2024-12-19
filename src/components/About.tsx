@@ -5,7 +5,7 @@ import Section from "./Section"
 const About: React.FC = () => {
 	const { about } = data
 	return (
-		<Section sectionData={about} bgColor="bg-green-light">
+		<Section sectionData={about} bgColor="bg-gray-200" subtitleColor="text-green-medium">
 			{about.items.map((paragraph, index) => (
 				<div
 					key={index}
@@ -17,7 +17,7 @@ const About: React.FC = () => {
 						<div className="about-paragraph-title text-2xl font-bold mb-2">
 							{paragraph.title}
 						</div>
-						<div className="about-paragraph-desc text-base text-gray-light place-self-center">
+						<div className="about-paragraph-desc text-base place-self-center">
 							{paragraph.description}
 						</div>
 					</div>
