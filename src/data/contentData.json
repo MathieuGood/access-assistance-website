@@ -247,7 +247,7 @@
 			"name": "Strasbourg",
 			"lat": 48.5734,
 			"lng": 7.7521,
-			"tooltipDirection": "right"
+			"tooltipDirection": "top"
 		},
 		{
 			"name": "Wasselonne",
