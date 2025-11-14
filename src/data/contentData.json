@@ -256,13 +256,6 @@
 			"image": "/images/logo-access-assistance.png",
 			"tooltipDirection": "left"
 		},
-		// {
-		// 	"name": "Hoerdt",
-		// 	"lat": 48.6848,
-		// 	"lng": 7.8034,
-		// 	"image": "/images/partners/laco.png",
-		// 	"tooltipDirection": "top"
-		// },
 		{
 			"name": "Fegersheim",
 			"lat": 48.4962,
