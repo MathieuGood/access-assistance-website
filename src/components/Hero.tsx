@@ -8,14 +8,13 @@ const Hero: React.FC = () => {
 			<div className="grid max-w-screen-xl px-4 py-2 pb-4 md:py-8 mx-auto md:gap-8 lg:pb-12 lg:px-16 md:grid-cols-12">
 				<div className="hero-left place-self-center md:col-span-7">
 					<p className="max-w-2xl mb-4 text-4xl font-extrabold md:text-5xl xl:text-6xl tracking-tighter lg:tracking-normal">
-						Une idée ? Un besoin ?
+						{data.hero.title}
 					</p>
 					<p className="max-w-2xl mb-4 text-4xl text-green-medium font-extrabold md:text-5xl xl:text-6xl tracking-tighter lg:tracking-normal">
-						On peut le faire !
+						{data.hero.subtitle}
 					</p>
 					<h1 className="max-w-2xl md:mt-8 mb-6 text-gray-light  font-semibold lg:mb-8 md:text-lg lg:text-xl">
-						Votre partenaire à taille humaine pour tous vos besoins en nettoyage dans le
-						département du Bas-Rhin.
+						{data.hero.description}
 					</h1>
 					<a
 						href="tel:+33388871515"

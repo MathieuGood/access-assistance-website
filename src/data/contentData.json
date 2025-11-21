@@ -20,9 +20,9 @@
 	],
 
 	"hero": {
-		"title": "Une idée ou un besoin ?",
-		"subtitle": "On peut le faire !",
-		"description": "Votre partenaire à taille humaine pour tous vos besoins en nettoyage et entretien dans le département du Bas-Rhin.",
+		"title": "Votre exigence mérite",
+		"subtitle": "l'excellence",
+		"description": "Access Assistance vous garantit un service de nettoyage rigoureux, réactif et personnalisé, au plus près de vos exigences, sur tout le territoire du Bas-Rhin.",
 		"img": { "src": "/images/photos/agent-chariot.jpeg", "alt": "Agent Access Assistance" },
 		"primaryAction": {
 			"text": "03 88 87 15 15",
@@ -39,19 +39,20 @@
 		"subtitle": "À votre service depuis 2001",
 		"items": [
 			{
-				"title": "À votre service depuis 2001",
-				"description": "Implanté à Wasselonne depuis plus de 20 ans, Access Assistance est le partenaire des professionnels pour tous types de missions de nettoyage et d'entretien. En tant qu'entreprise familiale, nous avons à coeur d'apporter le meilleur niveau de service à nos clients pour un partenariat durable. ",
+				"title": "Depuis 2001, un acteur de référence du nettoyage professionnel dans le Bas-Rhin",
+				"description": "Entreprise familiale implantée à Wasselonne depuis plus de vingt-cinq ans, Access Assistance est aujourd’hui un acteur incontournable du nettoyage professionnel dans le Bas-Rhin. Avec plus de 35 collaborateurs experts, nous accompagnons collectivités, bailleurs, industries et entreprises avec une ambition claire : offrir une qualité visible, constante et durable.",
 				"img": {
 					"src": "/images/photos/agent-aspirateur.jpeg",
 					"alt": "Locaux Access Assistance"
 				}
 			},
 			{
-				"title": "Un client, une offre",
-				"description": "Car chaque situation est différente, nous construisons pour chacun de nos clients une offre sur mesure, en fonction de ses besoins. ",
+				"title": "Ce qui fait notre différence ?",
+				"description": "Une exigence sans compromis, une organisation parfaitement maîtrisée et une capacité à comprendre les enjeux réels de chaque site, même les plus complexes. Fort de notre expérience dans les marchés publics, nous avons développé une méthodologie rigoureuse, transparente et conforme aux standards les plus élevés du secteur.",
 				"img": { "src": "/images/photo-batiment.jpg", "alt": "Locaux Access Assistance" }
 			}
-		]
+		],
+		"bottom": "Chez Access Assistance, chaque prestation est pensée pour apporter plus qu’un simple nettoyage : une fiabilité totale, une réactivité immédiate et un engagement quotidien pour la satisfaction de nos clients."
 	},
 
 	"customOffer": {
@@ -67,6 +68,7 @@
 			}
 		]
 	},
+	"customerFocus": {},
 
 	"ecology": {
 		"title": "Eco-responsabilité",

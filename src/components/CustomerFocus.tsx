@@ -2,7 +2,7 @@ import React from "react"
 import data from "../data/contentData.json"
 import Section from "./Section"
 
-const About: React.FC = () => {
+const CustomerFocus: React.FC = () => {
 	const { about } = data
 	return (
 		<Section sectionData={about} bgColor="bg-gray-100">
@@ -24,11 +24,6 @@ const About: React.FC = () => {
 							{about.items[1].description}
 						</p>
 					</div>
-					<div className="mt-6">
-						<div className="about-paragraph-title text-md font-bold text-green-medium mb-2">
-							{about.bottom}
-						</div>
-					</div>
 				</div>
 				<div
 					className={`about-paragraph-media flex items-center mt-2 md:mt-0 md:col-span-5 md:order-1`}>
@@ -43,4 +38,4 @@ const About: React.FC = () => {
 	)
 }
 
-export default About
+export default CustomerFocus
